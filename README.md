@@ -1,8 +1,8 @@
 # JsShoppingCart
-# This is  GIG to show off Parry's skills in JS, RWD, HTML , CSS.
-# This all is build using above skills, so if you are beginner this must not be a rocket science, to get hold of.
-# Reach me for any queries : erpardeepkjanjua@gmail.com
-# Is Licence Free! Never mind, Feel free to use it for your school, college or office projects.
+ This is  GIG to show off Parry's skills in JS, RWD, HTML , CSS.
+ This all is build using above skills, so if you are beginner this must not be a rocket science, to get hold of.
+ Reach me for any queries : erpardeepkjanjua@gmail.com
+ Is Licence Free! Never mind, Feel free to use it for your school, college or office projects.
 
 # SiteMap
  1. Login page
@@ -19,7 +19,7 @@
     - once done items are dispatched.
     
     
-  # This is a medium compexity project, covering e2e E-retail , Feel free to add enhancements as per your need!
+ !! This is a medium compexity project, covering e2e E-retail , Feel free to add enhancements as per your need!
     
     
     

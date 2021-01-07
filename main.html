@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Standard Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Mega Cart Properties -->
+    <title> SignUp - Pardeep Kumar|782886</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- SCRIPT -->
+    <script rel="javascript" type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/js/validation_main.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/js/commonFunctions.js"></script>
+</head>
+
+<body>
+    <!-- Logout: clears Session or Back Module-->
+    <div class="ui buttons logout">
+        <button class="ui button" id="backPressed">Back</button>
+        <div class="or"></div>
+        <button class="ui positive button" id="logoutBtn">Logout</button>
+    </div>
+
+
+
+    <div class="ui middle aligned center aligned grid">
+        <div class="column">
+            <h2 class="ui teal image header">
+                <div class="content"> Dear <i id="adminName"></i> , Welcome to Mega Cart </div>
+            </h2>
+            <br />
+            <sub>Please click on an item to add it to the cart!</sub>
+            <br />
+            <br />
+
+            <div class="ui cards">
+                <!-- Clothing -->
+                <div class="ui card">
+                    <div class="ui image header">
+                        <img src="assets/images/clothing.jpg" class="ui big rounded image">
+                    </div>
+                    <div class="content">
+                        <span>Clothing</span>
+                    </div>
+                    <div class="price"><span>INR 200</span></div>
+                    <div class="ui vertical animated button adCart">
+                        <div class="hidden content"> Add</div>
+                        <div class="visible content">
+                            <i class="shop icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BEAUTY & HEALTH -->
+                <div class="ui card">
+                    <div class="ui image header">
+                        <img src="assets/images/health.jpg" class="ui big rounded image">
+                    </div>
+                    <div class="content">
+                        <span>Beauty & Health</span>
+                    </div>
+                    <div class="price"><span>INR 500</span></div>
+                    <div class="ui vertical animated button adCart">
+                        <div class="hidden content"> Add</div>
+                        <div class="visible content">
+                            <i class="shop icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footwear -->
+                <div class="ui card">
+                    <div class="ui image header">
+                        <img src="assets/images/footwear.jpg" class="ui big rounded image">
+                    </div>
+                    <div class="content">
+                        <span>Footwear</span>
+                    </div>
+                    <div class="price"><span>INR 600</span></div>
+                    <div class="ui vertical animated button adCart">
+                        <div class="hidden content"> Add</div>
+                        <div class="visible content">
+                            <i class="shop icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- School Bags -->
+                <div class="ui card">
+                    <div class="ui image header">
+                        <img src="assets/images/school.jpg" class="ui big rounded image">
+                    </div>
+                    <div class="content">
+                        <span>School Bag</span>
+                    </div>
+                    <div class="price"><span>INR 1600</span></div>
+                    <div class="ui vertical animated button adCart">
+                        <div class="hidden content"> Add</div>
+                        <div class="visible content">
+                            <i class="shop icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Items update -->
+    <div class="ui labeled button cartItems">
+        <div class="ui teal button">
+            <i class="shopping cart icon"></i> Cart Items
+        </div>
+        <a href="./buy-item.html" class="ui basic red left pointing label" id="shopCount">1</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Standard Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Mega Cart Properties -->
+    <title> Checkout - Pardeep Kumar|782886</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- SCRIPT -->
+    <script rel="javascript" type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/js/commonFunctions.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/js/validation_buyItem.js"></script>
+</head>
+
+<body>
+    <!-- Logout: clears Session or Back Module-->
+    <div class="ui buttons logout">
+        <button class="ui button" id="backPress">Back</button>
+        <div class="or"></div>
+        <button class="ui positive button" id="logoutBtn">Logout</button>
+    </div>
+
+    <div class="ui middle aligned center aligned grid">
+        <div class="column">
+            <h5 class="ui teal image header">
+                <div class="content"> Dear <i id="adminName"></i>  , Here is the Summary of your Bill </div>
+            </h5>
+            <h3>You have bought <i id="itemNumber"></i> items</h3>
+            <div class="ui list">
+                <div class="item">
+                    <i class="opencart icon"></i>
+                    <div class="content"> Items <i id="item"></i> costing <i id="cost"></i>will be delivered in <i id="deliveryDays"></i> days! </div>
+                    <br />
+                    <a class="ui red tag label">Your total bill is <b><i id="total"></i></b>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hide">
+                <p>No Items to display in your Cart!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

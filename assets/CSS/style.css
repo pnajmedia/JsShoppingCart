@@ -1,0 +1,15 @@
+body { background-color: #a5dee5; } 
+body > .grid { height: 100%;} 
+.image { margin-top: -100px; } 
+.column { max-width: 450px; }
+.content{ color: black; }
+td.centre {text-align: center; } 
+.ui.buttons.logout { position: absolute; top: 20px; left: 10px; }
+button#logoutBtn:hover { background-color: #ec4d4d;}
+.ui.labeled.button.cartItems{ position: absolute; top: 2.6em; right: 22em;}
+.ui.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    float: left;
+    margin-left: -28em;
+}

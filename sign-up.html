@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Standard Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Mega Cart Properties -->
+    <title> SignUp - Pardeep Kumar|782886</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- SCRIPT -->
+    <script rel="javascript" type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/js/validationEngineForForms.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/js/validation_login.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/js/commonFunctions.js"></script>
+</head>
+
+<body>
+    <!-- Logout: clears Session or Back Module-->
+    <div class="ui buttons logout">
+        <button class="ui button" id="loginPressed">Login</button>
+        <div class="or"></div>
+        <button class="ui positive button" id="logoutBtn">Logout</button>
+    </div>
+
+    <div class="ui middle aligned center aligned grid">
+        <div class="column">
+            <h2 class="ui teal image header">
+                <div class="content"> The Mega Mart </div>
+            </h2>
+
+            <form class="ui large form" method="GET" action="/main.html">
+                <!-- Username -->
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        <input type="text" name="username" placeholder="Enter User Name" />
+                    </div>
+                </div>
+
+                <!-- Email Id -->
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="envelope icon"></i>
+                        <input type="text" name="email" placeholder="Enter Email" />
+                    </div>
+                </div>
+
+                <!-- Mobile Number -->
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="phone icon"></i>
+                        <input type="text" name="mobile" placeholder="Enter Mobile Numbers" />
+                    </div>
+                </div>
+
+                <!-- Password -->
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user secret icon"></i>
+                        <input type="password" name="password" placeholder="Enter Password" />
+                    </div>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user secret icon"></i>
+                        <input type="password" name="password" placeholder="Confirm Password" />
+                    </div>
+                </div>
+                <div class="ui fluid large teal submit button">SignUp</div>
+
+        <div class="ui error message"></div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
